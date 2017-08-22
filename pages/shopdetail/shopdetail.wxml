@@ -1,0 +1,34 @@
+<view class="container">
+  <view class="detail_header">
+    <view class="txt_info">
+      <text class="title">{{shopsList.title}}</text>
+      <text class="title">{{subtitle}}</text>
+      <text class="tip">亲子·孕产护理</text>
+    </view>
+    <image class="logo" src="../../img/logo.png"></image>
+  </view>
+
+  <view class="shop_msg-item" bindtap="bindMap">
+    <image class="icon" src="../../img/icon_map.png"></image>
+    <view class="txt">{{detailList.address}}</view>
+    <image class="icon" src="../../img/icon_jt.png"></image> 
+  </view>
+  <view class="shop_msg-item">
+    <image class="icon" src="../../img/icon_clock.png"></image>
+    <view class="txt">{{detailList.time}}</view>
+  </view>
+  <view class="shop_msg-item" bindtap="bindTel">
+    <image class="icon" src="../../img/icon_tel.png"></image>
+    <view class="txt">{{detailList.tel}}</view>
+    <image class="icon" src="../../img/icon_jt.png"></image> 
+  </view>
+  <view class="shop_msg-item">
+    <image class="icon" src="../../img/icon_ip.png"></image>
+    <view class="txt">门店照片</view>
+  </view>
+
+  <view class="shop_pic">
+    <image src="{{item}}" data-picindex="{{index}}" bindtap="bindPic" wx:for="{{imgPath}}"></image>
+  </view>
+  <text class="footer">没有更多内容了</text>
+</view>

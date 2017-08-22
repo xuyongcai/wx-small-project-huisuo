@@ -1,0 +1,10 @@
+
+<view class="container">
+  <view class="shops_info" data-index="{{index}}" bindtap="openShopDetail" wx:for="{{shopsList}}" wx:key="shopsl">
+    <text class="title">{{item.title}}</text>
+    <text class="subtitle">{{item.subtitle}}</text>
+    <view class="item_pic" wx:if="{{item.imgoff}}">
+      <image src="{{item}}" wx:for="{{item.img}}" wx:key="img"></image>
+    </view>
+  </view>
+</view>

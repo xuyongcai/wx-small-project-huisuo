@@ -1,0 +1,9 @@
+.shops_info .item_pic{
+  display: flex;
+}
+.shops_info .item_pic image{
+  height: 210rpx;
+}
+.shops_info .item_pic image+image{
+  margin-left: 6rpx;
+}

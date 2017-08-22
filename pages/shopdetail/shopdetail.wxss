@@ -1,0 +1,59 @@
+/* 头部 */
+.detail_header{
+  padding: 50rpx 0;
+  display: flex;
+  border-bottom: 2rpx dashed #ccc;
+}
+.detail_header .txt_info{
+  flex: auto;
+  width: 80%;
+}
+.detail_header .txt_info .tip{
+  display: block;
+  color: #ccc;
+  font-size: 23rpx;
+  line-height: 60rpx;
+}
+.detail_header .logo{
+  flex: none;
+  width: 120rpx;
+  height: 130rpx;
+}
+
+/* 具体信息，中间 */
+.shop_msg-item{
+  font-size: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx 0;
+}
+.shop_msg-item .txt{
+  flex: auto; 
+  margin: 0 10rpx;
+}
+.shop_msg-item .icon{
+  width: 28rpx;
+  height: 28rpx;
+  flex: none;  
+}
+
+/* 店铺照片 */
+.shop_pic{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.shop_pic image{
+  width:218rpx;
+  height: 145rpx;
+  margin-top: 10rpx;
+}
+
+/* footer */
+.footer{
+  font-size: 28rpx;
+  color: #ccc;
+  display: block;
+  text-align: center;
+  margin: 40rpx;
+}
